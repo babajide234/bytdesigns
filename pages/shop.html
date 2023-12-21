@@ -1,0 +1,2645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Dhurjati&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="">
+      <nav
+        class="flex items-center w-full justify-between bg-slate-50 px-20 h-[100px] gap-[28px]"
+      >
+        <div class="w-[76px] h-[76px]">
+          <img src="../../img/logo.png" alt="" class="w-full" />
+        </div>
+        <div class="">
+          <ul class="flex p-2.5 gap-6">
+            <li class="">
+              <a
+                href=""
+                class="capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500"
+                >home</a
+              >
+            </li>
+            <li class="">
+              <a
+                href=""
+                class="capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500"
+                >vintage watches</a
+              >
+            </li>
+            <li class="">
+              <a
+                href=""
+                class="capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500"
+                >other</a
+              >
+            </li>
+            <li class="">
+              <a
+                href=""
+                class="capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500"
+                >about me</a
+              >
+            </li>
+            <li class="">
+              <a
+                href=""
+                class="capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-1">
+          <div class="w-[95px]"></div>
+          <div
+            class="w-[275px] h-[38px] rounded-[100px] pl-[19px] border border-neutral-300 overflow-hidden justify-start items-center inline-flex"
+          >
+            <span class="w-[22px] h-[22px] relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </span>
+            <input
+              type="text"
+              class="pl-[19px] py-2 flex-grow inline-flex outline-none border-none placeholder:text-gray-400 placeholder:capitalize bg-slate-50"
+              placeholder="search products"
+            />
+          </div>
+          <div class="justify-center items-center gap-1 flex">
+            <button class="w-10 h-10 p-2.5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                />
+              </svg>
+            </button>
+            <button class="w-10 h-10 p-2.5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                />
+              </svg>
+            </button>
+            <button class="w-10 h-10 p-2.5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="px-8">
+      <section
+        class="my-8 w-full h-[450px] bg-shop-img bg-cover rounded-3xl relative"
+      >
+        <div class="absolute w-full h-full bg-black opacity-50 rounded-3xl">
+          <div class="w-full h-full flex flex-col gap-6 place-content-center">
+            <div class="flex gap-3 place-content-center">
+              <h3 class="text-white">Home</h3>
+              <span class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </span>
+
+              <h3 class="text-white">Shop</h3>
+            </div>
+            <h2 class="text-[60px] text-white text-center">Shop</h2>
+            <p class="text-white text-center">
+              It's never to late to buy something new.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-8 py-8 w-full">
+        <div class="w-full flex item-center justify-between">
+          <p>138 products</p>
+          <div class="flex gap-8 items-center">
+            <div class="flex gap-1 items-center">
+              <p class="text-black">Filter</p>
+              <span class="text-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
+                  />
+                </svg>
+              </span>
+            </div>
+            <div class="grid grid-cols-2">
+              <div
+                class="col-span-1 p-2 border border-solid border-b-gray-200 cursor-pointer hover:bg-gray-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
+                  />
+                </svg>
+              </div>
+              <div
+                class="col-span-1 p-2 border border-solid border-b-gray-200 cursor-pointer hover:bg-gray-400"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1412px] my-8 flex gap-6 overflow-visible relative">
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full h-full grid grid-cols-2 gap-9 py-8">
+          <div
+            class="col-span-1 w-full h-[500px] bg-shop-img bg-cover rounded-3xl relative"
+          >
+            <div
+              class="absolute w-full h-full bg-black opacity-40 rounded-3xl"
+            ></div>
+          </div>
+          <div class="col-span-1 py-10">
+            <h4 class="text-black uppercase">Special offer</h4>
+            <h2 class="text-black text-[70px]">10% Discount</h2>
+            <p class="text-gray-500">
+              Where timeless elegance meets the delicate beauty of yesteryears.
+              Our equisite collection is inspired bt the grace and charm of
+              vintage eras, with every piece reflecting the timeless allure of
+              roses
+            </p>
+            <p class="text-black text">Hurry Up! Offer expires in:</p>
+            <div class="flex gap-7 my-8">
+              <div>
+                <p class="text-black text-[36px] text-center">4</p>
+                <span class="text-black text-sm text-center">Days</span>
+              </div>
+              <span class="text-black text-[36px] text-center">:</span>
+              <div>
+                <p class="text-black text-[36px] text-center">17</p>
+                <span class="text-black text-sm text-center">Hours</span>
+              </div>
+              <span class="text-black text-[36px] text-center">:</span>
+              <div>
+                <p class="text-black text-[36px] text-center">53</p>
+                <span class="text-black text-sm text-center">Minutes</span>
+              </div>
+              <span class="text-black text-[36px] text-center">:</span>
+              <div>
+                <p class="text-black text-[36px] text-center">43</p>
+                <span class="text-black text-sm text-center">Seconds</span>
+              </div>
+            </div>
+            <div
+              class="w-1/4 h-fit p-4 bg-slate-600 rounded-[100px] flex place-content-center gap-4 cursor-pointer"
+            >
+              <span class="text-white">Add to cart</span>
+              <span class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[1412px] my-8 flex gap-6 overflow-visible relative">
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1412px] my-8 flex gap-6 overflow-visible relative">
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+          <div
+            class="w-[292px] h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[30px] border border-black/50"
+          >
+            <div
+              class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full"
+            >
+              <div
+                class="w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 h-[158px]"
+              >
+                <img
+                  src="../img/jewl.png"
+                  alt=""
+                  class="object-cover transition duration-500 ease-in-out"
+                />
+                <div
+                  class="w-[55px] absolute top-4 right-4 py-2 text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center inline-flex"
+                >
+                  Best selling
+                </div>
+              </div>
+              <div class="w-full justify-between items-center inline-flex">
+                <div
+                  class="flex-col justify-start items-start gap-3 inline-flex"
+                >
+                  <h2
+                    class="w-[149px]text-zinc-950 text-lg font-normal font-dm-sans leading-[18px]"
+                  >
+                    Vintage rose
+                  </h2>
+                  <h3
+                    class="text-zinc-950 text-base font-normal font-dm-sans leading-none"
+                  >
+                    $500
+                  </h3>
+                </div>
+                <div
+                  class="flex-col justify-center items-end gap-2 inline-flex"
+                >
+                  <div class="justify-start items-start gap-0.5 inline-flex">
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-primary">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <span class="text-gray-400">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        data-slot="icon"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="w-6 h-6 relative">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      data-slot="icon"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <a
+                href=""
+                class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out"
+              >
+                Add to cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="w-full inline-flex place-content-center gap-6 py-8">
+        <div
+          class="p-2 flex place-content-center border border-solid border-b-gray-300"
+        >
+          <span class="text-gray-300">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              data-slot="icon"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="flex items-center gap-3">
+          <div
+            class="p-2 flex place-content-center border border-solid border-b-gray-300 min-w-[40px]"
+          >
+            <span> 1 </span>
+          </div>
+          <div
+            class="p-2 flex place-content-center border border-solid border-b-gray-300 min-w-[40px]"
+          >
+            <span> 2 </span>
+          </div>
+          <div
+            class="p-2 flex place-content-center border border-solid border-b-gray-300 min-w-[40px]"
+          >
+            <span> 3 </span>
+          </div>
+        </div>
+        <div
+          class="p-2 flex place-content-center border border-solid border-b-gray-300"
+        >
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              data-slot="icon"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="w-full h-fit">
+      <div
+        class="px-[100px] py-[45px] w-full h-[500px] flex flex-col gap-[54px] left-0 top-[311px] bg-slate-50"
+      >
+        <div class="justify-between items-center flex">
+          <h2
+            class="w-[364px] text-neutral-500 text-lg font-normal font-dm-sans"
+          >
+            Join our newsletter to keep up to date with our exclusive discounts,
+            newest items and more
+          </h2>
+          <div class="justify-start items-start gap-4 inline-flex">
+            <div
+              class="w-[380px] h-[58px] px-5 overflow-hidden rounded-[100px] border border-neutral-500 justify-start items-center gap-6 flex"
+            >
+              <div class="w-6 h-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  data-slot="icon"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z"
+                  />
+                </svg>
+              </div>
+              <input
+                type="text"
+                class="h-full bg-slate-50 flex-grow outline-none border-none placeholder:text-neutral-500 text-base font-normal font-dm-sans leading-none"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div
+              class="w-[154px] h-[58px] p-2.5 bg-slate-600 rounded-[100px] justify-center items-center gap-2.5 flex"
+            >
+              <div
+                class="text-white text-base font-normal font-dm-sans leading-none"
+              >
+                Subscribe
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full border-b border-solid border-slate-200 block"></div>
+        <div class="w-full justify-between items-start inline-flex">
+          <div class="flex-col justify-start items-start gap-5 inline-flex">
+            <div class="flex-col justify-start items-start gap-2 flex">
+              <h2
+                class="text-zinc-950 text-base font-medium font-space-grotesk"
+              >
+                ByTDesigns
+              </h2>
+            </div>
+            <h2
+              class="w-[440px] text-neutral-500 text-sm font-normal font-dm-sans leading-[14px]"
+            >
+              Shop with confidence and adorn yourself with the finest treasures,
+              or find the perfect gift for your loved ones.
+            </h2>
+          </div>
+          <div class="justify-start items-start gap-[54px] flex">
+            <div class="flex-col justify-start items-start gap-2 inline-flex">
+              <div class="px-0.5 justify-start items-start gap-2.5 inline-flex">
+                <h2
+                  class="text-black text-base font-medium font-dm-sans leading-none"
+                >
+                  ByTDesigns
+                </h2>
+              </div>
+              <div class="py-2.5 flex-col justify-start items-start gap-2 flex">
+                <a
+                  class="px-0.5 py-1 text-zinc-950 text-sm font-normal font-dm-sans"
+                >
+                  Contact us
+                </a>
+                <a
+                  class="px-0.5 py-1 text-zinc-950 text-sm font-normal font-dm-sans"
+                >
+                  Vintage watches
+                </a>
+                <a
+                  class="px-0.5 py-1 text-zinc-950 text-sm font-normal font-dm-sans"
+                >
+                  About
+                </a>
+              </div>
+            </div>
+            <div class="flex-col justify-start items-start gap-2 inline-flex">
+              <div class="px-0.5 justify-start items-start gap-2.5 inline-flex">
+                <h2
+                  class="text-black text-base font-medium font-dm-sans leading-none"
+                >
+                  Socials
+                </h2>
+              </div>
+              <div class="py-2.5 flex-col justify-start items-start gap-2 flex">
+                <a
+                  class="px-0.5 py-1 text-zinc-950 text-sm font-normal font-dm-sans"
+                >
+                  Instagram
+                </a>
+                <a
+                  class="px-0.5 py-1 text-zinc-950 text-sm font-normal font-dm-sans"
+                >
+                  Pinterest
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full border-b border-solid border-slate-200 block"></div>
+
+        <div class="flex-col justify-start items-start gap-6 inline-flex">
+          <div class="flex items-center gap-2">
+            <div
+              class="w-3.5 h-3.5 p-3 rounded-[100px] border font-dm-sans text-lg border-neutral-500 flex justify-center items-center gap-2.5"
+            >
+              C
+            </div>
+            <h2
+              class="text-neutral-500 text-lg font-normal font-dm-sans leading-[18px]"
+            >
+              2023 ByTDesigns Inc
+            </h2>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
