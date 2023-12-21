@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled output and logs
+dist/
+build/
+logs/
+
+# Ignore environment files
+.env
+
+# Ignore dependencies installed via Composer
+vendor/
+
+# Ignore database and cache files
+*.sqlite
+*.sqlite3
+.cache/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore local configuration files
+config/local.js
