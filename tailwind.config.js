@@ -5,14 +5,14 @@ module.exports = {
     extend: {
       colors: {
         primary: "#427478",
-        faded: "faded  green",
+        faded: "#F9FFFF",
       },
       backgroundImage: {
         "hero-img": 'url("../img/headerBg.png")',
         "mission-img": 'url("../img/layer.png")',
         "section-img": 'url("../img/section-img.png")',
         "footer-img": 'url("../img/footer.png")',
-        "shop-img": 'url("../img/shopImage.png")',
+        "shop-img": 'url("../img/pic1.png")',
       },
       fontFamily: {
         "dm-sans": ["DM Sans", "sans-serif"],
@@ -34,5 +34,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/container-queries')
+  ],
 };

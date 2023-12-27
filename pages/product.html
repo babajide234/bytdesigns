@@ -72,388 +72,203 @@
     </nav>
     </header>
 
-    <main class="flex flex-col gap-[70px] py-[8px] overflow-x-hidden bg-faded">
-      <section class=" px-5 md:max-2xl:px-[36px] w-full">
-        <div class="w-full h-[250px] md:max-2xl:h-[450px] bg-shop-img flex justify-center items-center bg-cover bg-black/40 bg-blend-overlay md:max-2xl:rounded-3xl relative">
-            <div class="w-full md:max-2xl:w-[837px] md:max-2xl:h-[175px] flex flex-col gap-2 md:max-2xl:gap-6 ">
-                <div class="flex gap-3 place-content-center">
-                  <h3 class="text-white">Home</h3>
-                  <span class="text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      data-slot="icon"
-                      class="w-6 h-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                      />
-                    </svg>
-                  </span>
-    
-                  <h3 class="text-white">Shop</h3>
-                </div>
-                <h2 class=" text-[32px] md:max-2xl:text-[60px] text-white text-center">Shop</h2>
-                <p class="text-white text-center">
-                  It's never to late to buy something new.
-                </p>
+    <main class="flex flex-col py-[62px] gap-[70px] overflow-x-hidden bg-faded">
+      <section class=" px-5 md:max-2xl:px-20 pb-5 md:max-2xl:pb-[244px] flex flex-col md:max-2xl:grid md:max-2xl:grid-cols-2 gap-12">
+        <div class=" w-full flex flex-col gap-[24px] ">
+          <div class="w-full h-[532px] md:max-2xl:h-[640px] flex-col justify-center items-center inline-flex overflow-hidden">
+            <img src="../img/ring.jpg" alt="" class=" w-full h-full md:max-2xl:h-[740px] object-cover">
+          </div>
+          <div class=" flex gap-3">
+            <div class=" w-24 md:max-2xl:w-[140px] h-[133px] md:max-2xl:h-[170px] rounded-sm border-2 border-black border-opacity-50 flex-col justify-center items-center inline-flex">
+              <img src="../img/ring.jpg" alt="" class=" w-full h-full object-cover">
             </div>
-        </div>
-      </section>
-      <section class="px-5 md:max-2xl:px-20 w-full flex flex-col gap-[32px]">
-        <div class="w-full flex item-center justify-between">
-          <p class=" font-dm-sans text-base text-zinc-600">138 products</p>
-          <div class="flex gap-8 items-center">
-            <button class="flex gap-1 items-center">
-              <p class="text-black">Filter</p>
-              <span class="text-black">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  data-slot="icon"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div class=" hidden md:max-2xl:flex items-center">
-              <button class=" p-2 bg-neutral-50 border border-solid border-b-gray-200 cursor-pointer hover:bg-gray-100">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  data-slot="icon"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
-                  />
-                </svg>
-              </button>
-              <button class="p-2 bg-neutral-50 border border-solid border-b-gray-200 cursor-pointer hover:bg-gray-100 text-gray-400">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  data-slot="icon"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 13.5V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 0 1 0 3m0-3a1.5 1.5 0 0 0 0 3m0 9.75V10.5"
-                  />
-                </svg>
-              </button>
+            <div class=" w-24 md:max-2xl:w-[140px] h-[133px] md:max-2xl:h-[170px] rounded-sm border-2 border-black border-opacity-50 flex-col justify-center items-center inline-flex">
+              <img src="../img/ring.jpg" alt="" class=" w-full h-full object-cover">
             </div>
+            <div class=" w-24 md:max-2xl:w-[140px] h-[133px] md:max-2xl:h-[170px] rounded-sm border-2 border-black border-opacity-50 flex-col justify-center items-center inline-flex">
+              <img src="../img/ring.jpg" alt="" class=" w-full h-full object-cover">
+            </div>
+            <div class=" w-24 md:max-2xl:w-[140px] h-[133px] md:max-2xl:h-[170px] rounded-sm border-2 border-black border-opacity-50 flex-col justify-center items-center inline-flex">
+              <img src="../img/ring.jpg" alt="" class=" w-full h-full object-cover">
+            </div>
+          
           </div>
         </div>
-        <div class="w-full flex  md:max-2xl:grid md:max-2xl:grid-cols-4 gap-[24px] ">
-          <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
-            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
-                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
-                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
-                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
-                        Best selling
-                    </div>
-                </div>
-                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
-                    <div class="flex-col justify-start items-start gap-3 inline-flex">
-                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
-                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
-                    </div>
-                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
-                        <div class="justify-start items-start gap-0.5 inline-flex">
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            
-                              
-                        </div>
-                        <div class="w-6 h-6 relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>                                  
-                        </div>
-                    </div>
-                </div>
-                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
-                    Add to cart
-                </button>
-            </div>
-          </div> 
-          <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
-            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
-                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
-                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
-                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
-                        Best selling
-                    </div>
-                </div>
-                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
-                    <div class="flex-col justify-start items-start gap-3 inline-flex">
-                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
-                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
-                    </div>
-                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
-                        <div class="justify-start items-start gap-0.5 inline-flex">
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            
-                              
-                        </div>
-                        <div class="w-6 h-6 relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>                                  
-                        </div>
-                    </div>
-                </div>
-                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
-                    Add to cart
-                </button>
-            </div>
-          </div> 
-          <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
-            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
-                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
-                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
-                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
-                        Best selling
-                    </div>
-                </div>
-                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
-                    <div class="flex-col justify-start items-start gap-3 inline-flex">
-                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
-                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
-                    </div>
-                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
-                        <div class="justify-start items-start gap-0.5 inline-flex">
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            
-                              
-                        </div>
-                        <div class="w-6 h-6 relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>                                  
-                        </div>
-                    </div>
-                </div>
-                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
-                    Add to cart
-                </button>
-            </div>
-          </div> 
-          <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
-            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
-                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
-                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
-                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
-                        Best selling
-                    </div>
-                </div>
-                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
-                    <div class="flex-col justify-start items-start gap-3 inline-flex">
-                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
-                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
-                    </div>
-                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
-                        <div class="justify-start items-start gap-0.5 inline-flex">
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            <span class=" text-gray-400">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
-                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                                </svg>
-                            </span>
-                            
-                              
-                        </div>
-                        <div class="w-6 h-6 relative">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>                                  
-                        </div>
-                    </div>
-                </div>
-                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
-                    Add to cart
-                </button>
-            </div>
-          </div> 
-        </div>
-      </section>
-      <section class="px-5 md:max-2xl:px-20 w-full bg-faded py-[73px]">
-        <div class="w-full h-full flex flex-col-reverse md:max-2xl:flex-row gap-6 md:max-2xl:gap-[100px] items-center ">
-          <div class=" w-full h-96 md:max-2xl:w-[550px] md:max-2xl:h-[558px] bg-black/20 bg-blend-overlay bg-shop-img bg-cover bg-center rounded-3xl relative">
-          </div>
-          <div class=" md:max-2xl:w-1/2 flex flex-col gap-4">
-            <div class="flex flex-col gap-3">
-              <h4 class="text-black uppercase font-dm-sans leading-[18px] text-lg">Special offer</h4>
-              <h2 class="text-black text-3xl md:max-2xl:text-[54px] font-dm-sans leading-[54px] font-normal">10% Discount</h2>
-              <p class="font-dm-sans text-[8px] md:max-2xl:text-base text-neutral-500 font-normal ">
-                Where timeless elegance meets the delicate beauty of yesteryears.
-                Our equisite collection is inspired bt the grace and charm of
-                vintage eras, with every piece reflecting the timeless allure of
-                roses
-              </p>
-            </div>
-            <div class=" flex flex-col gap-4">
-              <p class="text-black text-lg font-dm-sans leading-[18px] font-normal"> <span class="font-medium">Hurry Up!</span>  Offer expires in:</p>
-              <div class="flex gap-[18px] ">
-                <div>
-                  <p class="text-black text-[34px] font-dm-sans text-center font-medium ">4</p>
-                  <span class="text-black text-xs font-dm-sans text-center font-normal">Days</span>
-                </div>
-                <span class="text-black text-[34px] font-dm-sans text-center">:</span>
-                <div>
-                  <p class="text-black text-[34px] font-dm-sans text-center font-medium">17</p>
-                  <span class="text-black text-xs font-dm-sans text-center font-normal">Hours</span>
-                </div>
-                <span class="text-black text-[34px] font-dm-sans text-center">:</span>
-                <div>
-                  <p class="text-black text-[34px] font-dm-sans text-center font-medium">53</p>
-                  <span class="text-black text-xs font-dm-sans text-center font-normal">Minutes</span>
-                </div>
-                <span class="text-black text-[34px] font-dm-sans text-center">:</span>
-                <div>
-                  <p class="text-black text-[34px] font-dm-sans text-center">43</p>
-                  <span class="text-black text-xs font-dm-sans text-center">Seconds</span>
-                </div>
+        <div class=" flex flex-col gap-[25px]">
+          <div class=" flex flex-col">
+            <div class=" w-full md:max-2xl:w-[212px] h-[26px] justify-start items-center gap-[5px] inline-flex">
+              <div class="px-0.5 py-1.5 justify-center items-center gap-2.5 flex">
+                  <div class="text-neutral-500 text-sm font-normal font-dm-sans leading-[14px]">Home</div>
+              </div>
+              <div class="w-2.5 h-2.5 relative">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-2.5 h-2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+              </div>
+              <div class="px-0.5 py-1.5 justify-center items-center gap-2.5 flex">
+                  <div class="text-neutral-500 text-sm font-normal font-dm-sans leading-[14px]">Shop</div>
+              </div>
+              <div class="w-2.5 h-2.5 relative">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-2.5 h-2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </div>
+              <div class="px-0.5 py-1.5 justify-center items-center gap-2.5 flex">
+                  <div class="text-neutral-500 text-sm font-normal font-dm-sans leading-[14px]">Vintatge rose</div>
               </div>
             </div>
-            <div class="w-[196px] h-[52px] p-2.5 text-white bg-primary rounded-[10px] shadow justify-center items-center gap-2.5 flex">
-              <div class=" text-xl font-normal font-dm-sans">Add to cart</div>
-              <div class="w-6 h-6 relative">
-                <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                data-slot="icon"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                />
-              </svg>
+            <div class="text-zinc-950 text-[32px] md:max-2xl:text-[52px] font-normal font-dm-sans leading-[52px]">Vintage rose</div>
+            <p class="text-[14px] md:max-2xl:text-base">Where timeless elegance meets the delicate beauty of yesteryears. Our exquisite collection is inspired by the grace and charm of vintage eras, with every piece reflecting the timeless allure of roses</p>
+            <div class="w-56 h-[26px] justify-start items-center gap-[13px] inline-flex">
+                <div class="py-0.5 justify-start items-start gap-2 flex"></div>
+                <div class="text-black text-opacity-50 text-sm font-normal font-dm-sans leading-[14px]">19 Reviews</div>
+            </div>
+            <div><span class="text-black text-opacity-20 text-xl font-normal font-dm-sans line-through leading-tight">$500</span><span class="text-zinc-600 text-[32px] font-normal font-dm-sans leading-loose">  $250</span></div>
+            <div class="w-full md:max-2xl:w-[270px] h-[110px] flex-col justify-start items-start gap-3 inline-flex">
+              <div class="flex-col justify-start items-start gap-2 flex">
+                  <div class="h-[22px] pr-[52px] py-1 justify-start items-center inline-flex">
+                      <div class="w-[218px] text-zinc-950 text-sm font-normal font-dm-sans leading-[14px]">Size</div>
+                  </div>
+                  <div class="justify-start items-start gap-4 inline-flex">
+                      <button class="w-10 h-10 p-1 hover:border-zinc-950 rounded border border-zinc-950 justify-center items-center gap-2.5 flex">
+                          <div class="grow shrink basis-0 text-center text-zinc-950 text-sm font-normal font-dm-sans leading-[14px]">S</div>
+                      </button>
+                      <button class="w-10 h-10 p-1 hover:border-zinc-950 rounded border border-stone-300 justify-center items-center gap-2.5 flex">
+                          <div class="grow shrink basis-0 text-center text-zinc-950 text-sm font-normal font-dm-sans leading-[14px]">M</div>
+                      </button>
+                      <button class="w-10 h-10 p-1 hover:border-zinc-950 rounded border border-gray-200 justify-center items-center gap-2.5 flex">
+                          <div class="grow shrink basis-0 text-center text-stone-300 text-sm font-normal font-dm-sans leading-[14px]">L</div>
+                      </button>
+                      <button class="w-10 h-10 p-1 hover:border-zinc-950 rounded border border-stone-300 justify-center items-center gap-2.5 flex">
+                          <div class="grow shrink basis-0 text-center text-zinc-950 text-sm font-normal font-dm-sans leading-[14px]">XL</div>
+                      </button>
+                  </div>
               </div>
+              <div class="px-2.5 py-2 rounded-sm border border-black border-opacity-10 flex-col justify-start items-start gap-2.5 flex">
+                  <div class="w-11 justify-between items-start inline-flex">
+                      <div class="w-3 h-3 relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>                        
+                      </div>
+                      <div class="text-zinc-600 text-xs font-normal font-dm-sans leading-3">Clear</div>
+                  </div>
+              </div>
+  
             </div>
           </div>
+          <div class=" w-full md:max-2xl:w-[578px] h-[228px] flex-col justify-start items-start gap-[30px] inline-flex">
+            <div class="flex-col w-full justify-start items-start gap-[18px] flex">
+                <div class="pl-[25px] pr-[5px] py-2 md:max-2xl:py-3.5 bg-neutral-100 rounded-[10px] justify-center items-center inline-flex">
+                    <div class="self-stretch justify-start items-center md:max-2xl:gap-[198px] inline-flex">
+                        <button class=" w-11 md:max-2xl:h-11 p-2.5 rounded-sm justify-center items-center gap-2.5 flex">
+                            <div class="w-5 h-5 relative rounded-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                              </svg>                              
+                            </div>
+                        </button>
+                        <div class="md:max-2xl:w-[46px] md:max-2xl:h-[46px] p-2.5 flex-col justify-center items-center gap-2.5 inline-flex">
+                            <input type="number" name="" id="" class="bg-neutral-100 outline-none border-none w-full text-black text-2xl font-normal font-dm-sans leading-normal">
+                        </div>
+                        <button class=" w-11 md:max-2xl:h-11 p-2.5 rounded-sm justify-center items-center gap-2.5 flex">
+                            <div class="w-5 h-5 relative rounded-sm">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                              </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <button class=" w-full md:max-2xl:w-[578px] md:max-2xl:h-[74px] p-2.5 bg-primary rounded-[10px] justify-center items-center gap-2.5 inline-flex">
+                    <div class="text-white text-xl font-normal font-dm-sans">Add to cart</div>
+                </button>
+            </div>
+            <div class=" w-full md:max-2xl:w-[560px] justify-start items-center gap-[11px] inline-flex">
+                <div class="h-8 gap-10 justify-between items-end flex">
+                    <button class="justify-start items-center gap-3 flex">
+                        <div class="w-8 h-8 relative">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                          </svg>                          
+                        </div>
+                        <div class="text-zinc-950 text-xl font-normal font-dm-sans leading-tight">Add to wishlist</div>
+                    </button>
+                    <button class="justify-start items-center gap-3 flex">
+                        <div class="w-8 h-8 relative">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+                          </svg>
+                        </div>
+                        <div class="text-black text-xl font-normal font-dm-sans leading-tight">Share</div>
+                    </button>
+                </div>
+            </div>
+          </div>
+          <div class=" w-full md:max-2xl:w-[509px] h-[84px] flex-col justify-start items-start gap-1 inline-flex">
+            <div class="justify-start items-start gap-1 inline-flex">
+                <div class="p-2.5 justify-center items-center gap-2.5 flex">
+                    <div class="md:max-2xl:w-[136px] text-neutral-500 text-sm md:max-2xl:text-xl font-normal font-dm-sans leading-tight">Category:</div>
+                </div>
+                <div class="p-2.5 justify-center items-center gap-2.5 flex">
+                    <div class="text-zinc-950 text-sm md:max-2xl:text-xl font-normal font-dm-sans leading-tight">Earrings</div>
+                </div>
+            </div>
+            <div class="justify-start items-start gap-1 inline-flex">
+                <div class="p-2.5 justify-center items-center gap-2.5 flex">
+                    <div class="md:max-2xl:w-[136px] text-neutral-500 text-sm md:max-2xl:text-xl font-normal font-dm-sans leading-tight">Tags</div>
+                </div>
+                <div class="p-2.5 justify-center items-center gap-2.5 flex">
+                    <div class="text-zinc-950 text-sm md:max-2xl:text-xl font-normal font-dm-sans leading-tight">Earring, Silver earrings, Blue earrings</div>
+                </div>
+            </div>
         </div>
+        </div>
+      </section>      
+      <section class=" px-5 py-0 md:max-2xl:px-20 md:max-2xl:py-[73px] bg-neutral-50">
+          <div class="flex-col justify-start items-start gap-7 flex">
+              <div class="w-full h-[54px] flex-col border-b border-black border-opacity-10 justify-start items-start gap-16 flex">
+                  <div class=" w-full md:max-2xl:w-[127px] self-stretch p-2.5 border-b border-zinc-950 justify-center items-center gap-2.5 flex">
+                      <div class="text-zinc-950 text-xl font-normal font-dm-sans leading-tight">Description</div>
+                  </div>
+                  <div class=" w-full md:max-2xl:w-[154px] self-stretch p-2.5 justify-center items-center gap-2.5 flex">
+                      <div class="text-stone-300 text-xl font-normal font-dm-sans leading-tight">Additional info</div>
+                  </div>
+                  <div class=" w-full md:max-2xl:w-[127px] self-stretch p-2.5 justify-center items-center gap-2.5 flex">
+                      <div class="text-stone-300 text-xl font-normal font-dm-sans leading-tight">Reviews(19)</div>
+                  </div>
+              </div>
+              <div class="flex-col justify-start items-start gap-9 flex">
+                  <div class=" w-full md:max-2xl:w-[796px] text-neutral-500 text-lg font-normal font-dm-sans leading-[18px]">We take pride in the exceptional quality of our jewelry. Each piece is crafted with precision and undergoes rigorous quality checks to ensure your complete satisfaction."</div>
+                  <div class="flex-col justify-start items-start gap-6 flex">
+                      <div class="text-zinc-950 text-xl font-normal font-dm-sans leading-tight">Information</div>
+                      <div class="flex-col justify-start items-start gap-[7px] flex">
+                          <div class="justify-center items-center gap-[7px] inline-flex">
+                              <div class="w-[5px] h-[5px] bg-zinc-950 rounded-full"></div>
+                              <div class="w-[322px] text-neutral-500 text-lg font-normal font-dm-sans leading-[30px]">Hand made</div>
+                          </div>
+                          <div class="justify-center items-center gap-[7px] inline-flex">
+                              <div class="w-[5px] h-[5px] bg-zinc-950 rounded-full"></div>
+                              <div class="w-[322px] text-neutral-500 text-lg font-normal font-dm-sans leading-[30px]">Pair of 4</div>
+                          </div>
+                          <div class="justify-center items-center gap-[7px] inline-flex">
+                              <div class="w-[5px] h-[5px] bg-zinc-950 rounded-full"></div>
+                              <div class="w-[322px] text-neutral-500 text-lg font-normal font-dm-sans leading-[30px]">High quality</div>
+                          </div>
+                          <div class="justify-center items-center gap-[7px] inline-flex">
+                              <div class="w-[5px] h-[5px] bg-zinc-950 rounded-full"></div>
+                              <div class="w-[322px] text-neutral-500 text-lg font-normal font-dm-sans leading-[30px]">Pure silver</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
-      <section class=" px-5 md:max-2xl:px-20  w-full">
-        <div class="w-full grid grid-cols-2 md:max-2xl:grid-cols-4 gap-6 ">
+      <section class=" px-5 md:max-2xl:px-20 w-full flex-col justify-start items-start gap-3 inline-flex">
+        <div class="w-full justify-between items-center inline-flex  ">
+            <h2 class="text-zinc-950 text-base md:max-2xl:text-2xl font-normal font-dm-sans leading-loose">You might also like:</h2>
+        </div>
+        <div class=" w-full md:max-2xl:w-[1412px]  flex gap-6 overflow-visible relative">
           <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
             <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
                 <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
@@ -508,59 +323,238 @@
                     Add to cart
                 </button>
             </div>
-          </div> 
-        </div>
-        <div class="w-full inline-flex place-content-center gap-6 py-20 ">
-          <button class="w-[40px] h-[40px] rounded flex justify-center items-center border border-solid border-b-gray-300 text-gray-300">
-            <span class="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                data-slot="icon"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15.75 19.5 8.25 12l7.5-7.5"
-                />
-              </svg>
-            </span>
-          </button>
-          <div class="flex items-center gap-3">
-            <button class=" w-[40px] h-[40px] rounded flex justify-center items-center border border-solid border-b-gray-300 bg-primary text-white">
-              <span> 1 </span>
-            </button>
-            <button class=" w-[40px] h-[40px] rounded flex justify-center items-center border border-solid border-b-gray-300 text-gray-300">
-              <span> 2 </span>
-            </button>
-          </div>
-          <button class="w-[40px] h-[40px] rounded flex justify-center items-center border border-solid border-primary text-primary">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                data-slot="icon"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                />
-              </svg>
-            </span>
-          </button>
+        </div>  
+        <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
+            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
+                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
+                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
+                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
+                        Best selling
+                    </div>
+                </div>
+                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
+                    <div class="flex-col justify-start items-start gap-3 inline-flex">
+                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
+                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
+                    </div>
+                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
+                        <div class="justify-start items-start gap-0.5 inline-flex">
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            
+                              
+                        </div>
+                        <div class="w-6 h-6 relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>                                  
+                        </div>
+                    </div>
+                </div>
+                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
+                    Add to cart
+                </button>
+            </div>
+        </div>  
+        <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
+            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
+                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
+                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
+                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
+                        Best selling
+                    </div>
+                </div>
+                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
+                    <div class="flex-col justify-start items-start gap-3 inline-flex">
+                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
+                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
+                    </div>
+                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
+                        <div class="justify-start items-start gap-0.5 inline-flex">
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            
+                              
+                        </div>
+                        <div class="w-6 h-6 relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>                                  
+                        </div>
+                    </div>
+                </div>
+                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
+                    Add to cart
+                </button>
+            </div>
+        </div>  
+        <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
+            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
+                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
+                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
+                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
+                        Best selling
+                    </div>
+                </div>
+                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
+                    <div class="flex-col justify-start items-start gap-3 inline-flex">
+                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
+                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
+                    </div>
+                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
+                        <div class="justify-start items-start gap-0.5 inline-flex">
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            
+                              
+                        </div>
+                        <div class="w-6 h-6 relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>                                  
+                        </div>
+                    </div>
+                </div>
+                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
+                    Add to cart
+                </button>
+            </div>
+        </div>  
+        <div class="w-[185px] h-[312px] flex-shrink-0 flex-grow-0 md:max-2xl:w-[292px] md:max-2xl:h-[354px] group p-2.5 bg-gradient-to-b from-slate-50 to-green-200 rounded-[10px] md:max-2xl:rounded-[30px] border border-black/50 ">
+            <div class="flex-col px-2 justify-center items-center gap-6 inline-flex w-full h-full">
+                <div class="md:max-2xl:w-full overflow-hidden relative rounded-[10px] justify-center items-center inline-flex bg-slate-300 w-[170px] h-[187px] md:max-2xl:h-[158px]">
+                    <img src="./img/jewl.png" alt="" class="object-cover transition duration-500 ease-in-out ">
+                    <div class="w-[55px] absolute top-4 right-4 py-2  text-white text-[8px] font-medium font-dm-sans leading-[8px] bg-primary rounded-sm justify-center items-center  inline-flex">
+                        Best selling
+                    </div>
+                </div>
+                <div class="w-full justify-between items-center flex md:max-2xl:flex-row flex-col-reverse " >
+                    <div class="flex-col justify-start items-start gap-3 inline-flex">
+                        <a href="./pages/product.html" class=" w-[149px] text-zinc-950 text-sm md:max-2xl:text-lg font-normal font-dm-sans leading-[14px] md:max-2xl:leading-[18px]">Vintage rose</a>
+                        <h3 class=" text-zinc-950 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none">$500</h3>
+                    </div>
+                    <div class=" flex-row w-full  md:max-2xl:flex-col justify-between items-center md:max-2xl:justify-center md:max-2xl:items-end gap-2 flex">
+                        <div class="justify-start items-start gap-0.5 inline-flex">
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span class=" text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class=" w-[14px] h-[14px] md:max-2xl:w-4 md:max-2xl:h-4">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            
+                              
+                        </div>
+                        <div class="w-6 h-6 relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>                                  
+                        </div>
+                    </div>
+                </div>
+                <button  class="w-full py-2 rounded-[100px] border border-primary justify-center items-center flex text-primary text-[10px] md:max-2xl:text-sm font-normal font-dm-sans leading-[14px] hover:bg-primary hover:text-white transition duration-300 ease-in-out ">
+                    Add to cart
+                </button>
+            </div>
+        </div> 
+            <div class=" absolute top-[50%] w-full flex justify-end items-center  -translate-y-2/4 ">
+                <button class="w-11 h-11 p-2.5 bg-white rounded-[100px] shadow border border-white border-opacity-10 backdrop-blur-[8.40px] justify-start items-start gap-2.5 inline-flex">
+                    <div class="w-6 h-6 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" data-slot="icon" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
+                          </svg>
+                    </div>
+                </button>
+            </div>
         </div>
       </section>
-
-
     </main>
 
     <footer class="w-full min-h-[449px] md:max-2xl:h-[881px] relative overflow-hidden">
