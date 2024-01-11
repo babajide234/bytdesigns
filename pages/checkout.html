@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Dhurjati&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="">
+      <nav class="flex items-center w-full justify-between bg-faded px-5 md:px-20 h-[50px] md:max-2xl:h-[100px] gap-[28px] border-b border-gray-300">
+        <div class=" w-[46px] h-[46px] md:max-2xl:w-[76px] md:max-2xl:h-[76px]">
+            <img src="./img/logo.png" alt="" class=" w-full">
+        </div>
+        <div class="hidden md:flex md:items-center">
+            <ul class="flex p-2.5 gap-6">
+                <li class=""><a href="" class=" capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500 ">home</a></li>
+                <li class=""><a href="" class=" capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500 ">vintage watches</a></li>
+                <li class=""><a href="" class=" capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500 ">other</a></li>
+                <li class=""><a href="" class=" capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500 ">about me</a></li>
+                <li class=""><a href="" class=" capitalize text-neutral-600 text-md font-normal font-dm-sans hover:cursor-pointer relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:bg-slate-900 after:h-px hover:after:w-full animate-borderAnimation duration-500 ">contact</a></li>
+            </ul>
+        </div>
+        <div class="hidden md:flex md:items-center md:gap-1">
+            <div class=" w-[95px]"></div>
+            <div class=" w-[275px] h-[38px] rounded-[100px] pl-[19px] border border-neutral-300 overflow-hidden justify-start items-center inline-flex">
+                <span class="w-[22px] h-[22px] relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                      </svg>                      
+                </span>
+                <input type="text" class=" pl-[19px]  py-2 flex-grow inline-flex outline-none border-none placeholder:text-gray-400 placeholder:capitalize bg-faded" placeholder="search products">
+            </div>
+            <div class="justify-center items-center gap-1 flex">
+                <button class="w-9 h-9 md:max-2xl:w-10 md:max-2xl:h-10 p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                    </svg>                  
+                </button>
+                <button class="w-9 h-9 md:max-2xl:w-10 md:max-2xl:h-10 p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>                  
+                </button>
+                <button class="w-9 h-9 md:max-2xl:w-10 md:max-2xl:h-10 p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                    </svg>                  
+                </button>
+            </div>
+        </div>
+        <div class=" flex items-center md:max-2xl:hidden ">
+            <div class=" w-[95px]"></div>
+            <div class="md:justify-center md:items-center md:gap-1 md:flex">
+                <button class="w-9 h-9 md:max-2xl:w-10 md:max-2xl:h-10 p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                      </svg>                                                            
+                </button>
+                <button class="w-9 h-9 md:max-2xl:w-10 md:max-2xl:h-10 p-2.5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                    </svg>                                        
+                </button>
+            </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex flex-col gap-[70px] py-[8px] overflow-x-hidden bg-faded">
+        <section class="px-5 md:max-2xl:px-20 w-full">
+            <div class="w-full md:max-2xl:py-[70px] flex-col justify-start items-center gap-[22px] flex">
+                <div class="text-neutral-500 text-5xl font-normal font-dm-sans leading-[48px]">Checkout</div>
+            </div>
+        </section>
+        <section class="px-5 md:max-2xl:px-20 flex justify-between items-start">
+            <div class=" w-7/12 flex flex-col gap-11">
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-center items-center gap-2.5 inline-flex relative">
+                    <div class="px-2.5 py-0.5 bg-faded justify-center items-center gap-2.5 flex absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                        <div class="text-zinc-600 text-[22px] font-normal font-dm-sans leading-loose">Payment method</div>
+                    </div>
+                    <button class="w-full p-2.5 bg-amber-300 rounded-[10px] justify-center items-center gap-2.5 flex">
+                        <div class="w-8 h-8 justify-center items-center flex">
+                            <img class="w-8 h-8" src="https://via.placeholder.com/32x32" alt="" />
+                        </div>
+                        <span class=" text-zinc-950 text-[22px] font-normal font-dm-sans leading-loose">Paypal</span>
+                    </button>
+                </div>
+                <div class="w-full h-0 relative border-b border-black border-opacity-10 my-10 ">
+                    <div class=" absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 bg-faded px-2.5">
+                        <h3 class="text-stone-300 text-[22px] font-normal font-dm-sans leading-loose">OR</h3>
+                    </div>
+                </div>
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-center gap-2.5 inline-flex relative">
+                    <h2 class="text-black text-[22px] font-normal font-dm-sans leading-loose">Contact Information</h2>
+                    <div class=" grid grid-cols-2 gap-5 ">
+                        <div class="w-full flex flex-col gap-2">
+                            <label for="" class="">First name</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2">
+                            <label for="" class="">Last name</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="" class="">Email address</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-center gap-2.5 inline-flex relative">
+                    <h2 class="text-black text-[22px] font-normal font-dm-sans leading-loose">Shipping address</h2>
+                    <div class=" grid grid-cols-2 gap-5 ">
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="" class="">Street address *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="" class="">Country *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="" class="">Town/city *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 ">
+                            <label for="" class="">Zipcode *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 ">
+                            <label for="" class="">State *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex items-center gap-2 ">
+                            <input type="checkbox" name="" id="">
+                            <label for="" class=" text-zinc-600 text-sm font-normal font-dm-sans leading-[14px]">Use a different billing address (optional)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-center gap-2.5 inline-flex relative">
+                    <h2 class="text-black text-[22px] font-normal font-dm-sans leading-loose">Shipping options</h2>
+                    <div class=" grid grid-cols-2 gap-5 ">
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="free" class=" flex items-center justify-between w-full px-[23px] py-[13px] rounded-lg border border-stone-300  cursor-pointer has-[:checked]:border-zinc-950 has-[:checked]:bg-stone-50">
+                                <span class="sr-only">free shipping</span>
+                                <div class="flex items-center gap-5">
+                                    <input type="radio" name="shipping" id="free" class="peer"/>
+                                    <span class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">Free shipping</span>
+                                </div>
+                                <h3 class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">$0.00</h3>
+                            </label>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="shipping-free" class=" flex items-center justify-between w-full px-[23px] py-[13px] rounded-lg border border-stone-300  cursor-pointer has-[:checked]:border-zinc-950 has-[:checked]:bg-stone-50">
+                                <span class="sr-only">Shipping choice 2</span>
+                                <div class="flex items-center gap-5">
+                                    <input type="radio" name="shipping" id="shipping-free" class="peer"/>
+                                    <span class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">Shipping choice 2</span>
+                                </div>
+                                <h3 class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">$0.00</h3>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-center gap-2.5 inline-flex relative">
+                    <h2 class="text-black text-[22px] font-normal font-dm-sans leading-loose">Card details</h2>
+                    <div class=" grid grid-cols-2 gap-5 ">
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="free" class=" flex items-center justify-between w-full px-[23px] py-[13px] rounded-lg border border-stone-300  cursor-pointer has-[:checked]:border-zinc-950 has-[:checked]:bg-stone-50">
+                                <span class="sr-only">free shipping</span>
+                                <div class="flex items-center gap-5">
+                                    <input type="radio" name="shipping" id="free" class="peer"/>
+                                    <span class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">Free shipping</span>
+                                </div>
+                                <h3 class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                                      </svg>                                      
+                                </h3>
+                            </label>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="" class="">Card number *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 ">
+                            <label for="" class="">Expiry date *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 ">
+                            <label for="" class="">CVV *</label>
+                            <input class="w-full py-2.5 bg-faded relative rounded-lg border border-black border-opacity-20"/>
+                        </div>
+                        <div class="w-full flex flex-col gap-2 col-span-2">
+                            <label for="free" class=" flex items-center justify-between w-full px-[23px] py-[13px] rounded-lg border border-stone-300  cursor-pointer has-[:checked]:border-zinc-950 has-[:checked]:bg-stone-50">
+                                <span class="sr-only">free shipping</span>
+                                <div class="flex items-center gap-5">
+                                    <input type="radio" name="shipping" id="free" class="peer"/>
+                                    <span class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed">Paypal</span>
+                                </div>
+                                <h3 class="text-zinc-950 text-base font-normal font-dm-sans leading-relaxed"></h3>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full py-8 flex flex-col gap-4 ">
+                    <p class="w-full text-neutral-500 text-base font-normal font-dm-sans leading-none">Your personal data is safe and secure and will not be saved and share to anyone!</p>
+                    <button class="w-full p-2.5 bg-primary rounded-[10px] justify-center items-center gap-2.5 inline-flex text-white text-xl font-normal font-dm-sans">
+                        Place order
+                    </button>
+                </div>
+            </div>
+            <div class=" w-1/3">
+                <div class="w-full px-6 py-8 rounded-[10px] border border-black border-opacity-10 flex-col justify-start items-start gap-6 inline-flex">
+                    <h2 class="text-black text-[22px] font-normal font-dm-sans leading-loose">Summary</h2>
+                    <div class="flex-col justify-start items-start gap-6 flex">
+                        <div class="flex-col justify-start items-start gap-4 flex">
+                            <div class="justify-start items-start gap-[15px] inline-flex">
+                                <div class="w-20 h-[102px] rounded flex-col justify-center items-center inline-flex">
+                                    <div class="self-stretch grow shrink basis-0 flex-col justify-center items-center inline-flex">
+                                        <img class="w-20 h-[102px]" src="https://via.placeholder.com/80x102" />
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-start items-start gap-6 inline-flex">
+                                    <div class="flex-col justify-start items-start gap-3 flex">
+                                        <div class="flex-col justify-start items-start gap-2.5 flex">
+                                            <div class="justify-start items-start gap-[46px] inline-flex">
+                                                <div class="text-black text-sm font-normal font-dm-sans leading-[14px]">Vintage rose necklace</div>
+                                                <div class="text-black text-sm font-normal font-dm-sans leading-[14px]">$500</div>
+                                            </div>
+                                        </div>
+                                        <div class="w-[226px] pr-2 justify-between items-start inline-flex">
+                                            <div class="w-[170px] flex-col justify-start items-start gap-2 inline-flex">
+                                                <div class="text-black text-opacity-50 text-xs font-normal font-dm-sans leading-3">Size, small</div>
+                                            </div>
+                                            <div class="w-3.5 h-3.5 relative"></div>
+                                        </div>
+                                    </div>
+                                    <div class="px-1 py-0.5 rounded border border-black border-opacity-10 justify-center items-center gap-[15px] inline-flex">
+                                        <button class="w-5 h-5 p-[4.55px] rounded-[0.91px] justify-center items-center gap-[4.55px] flex">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[9.09px] h-[9.09px]">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                                            </svg>                                                  
+                                        </button>
+                                        <input type="number" class=" bg-faded outline-none text-zinc-950 text-[10px] font-normal font-dm-sans leading-[10px] w-5"/>
+                                        <button class="w-5 h-5 p-[4.55px] rounded-[0.91px] justify-center items-center gap-[4.55px] flex">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[9.09px] h-[9.09px]">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                                  </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="justify-start items-start gap-[26px] inline-flex">
+                                <input class="w-44 py-[10px] px-5 bg-faded rounded-lg border border-black border-opacity-20 justify-start items-center flex outline-none " placeholder="Enter Code"/>
+                                <button class="py-[11px] px-12 bg-primary rounded-[10px] shadow justify-center items-center gap-2.5 flex text-white text-sm font-normal font-dm-sans">
+                                    Input
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-full flex-col justify-start items-start gap-3 flex">
+                            <div class="w-full  justify-between items-center inline-flex">
+                                <div class="justify-center items-center gap-1.5 flex">
+                                    <div class="w-5 h-5 relative">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" cladm-sans">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z" />
+                                          </svg>                                          
+                                    </div>
+                                    <div class="text-black text-base font-normal font-dm-sans leading-none">SE4O52D</div>
+                                </div>
+                                <div class="justify-center items-center gap-1.5 flex">
+                                    <div class="justify-center items-center gap-1.5 flex">
+                                        <div class="text-green-500 text-base font-normal font-dm-sans leading-none">-$40.00</div>
+                                    </div>
+                                    <div class="w-[72px] p-2.5 rounded-[10px] justify-center items-center gap-2.5 flex">
+                                        <div class="text-green-500 text-sm font-normal font-dm-sans underline">Remove</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full h-[0px] border-b border-black border-opacity-20"></div>
+                            <div class="w-full flex-col justify-start items-end gap-3 flex">
+                                <div class="w-full py-2.5 justify-between items-center inline-flex">
+                                    <div class="h-4 justify-start items-center gap-1.5 flex">
+                                        <div class="text-zinc-600 text-base font-normal font-dm-sans leading-none">Shipping</div>
+                                    </div>
+                                    <div class="justify-center items-center gap-1.5 flex">
+                                        <div class="text-black text-base font-normal font-dm-sans leading-none">Free</div>
+                                    </div>
+                                </div>
+                                <div class="w-full h-[0px] border-b border-black border-opacity-20"></div>
+                                <div class="w-full py-2.5 justify-between items-center inline-flex">
+                                    <div class="h-4 justify-start items-center gap-1.5 flex">
+                                        <div class="text-zinc-600 text-base font-normal font-dm-sans leading-none">VAT</div>
+                                    </div>
+                                    <div class="justify-center items-center gap-1.5 flex">
+                                        <div class="text-black text-base font-normal font-dm-sans leading-none">$0.45</div>
+                                    </div>
+                                </div>
+                                <div class="w-full h-[0px] border-b border-black border-opacity-20"></div>
+                                <div class="w-full py-2.5 justify-between items-center inline-flex">
+                                    <div class="h-4 justify-start items-center gap-1.5 flex">
+                                        <div class="text-zinc-950 text-base font-medium font-dm-sans leading-none">Total</div>
+                                    </div>
+                                    <div class="justify-center items-center gap-1.5 flex">
+                                        <div class="text-slate-600 text-base font-medium font-dm-sans leading-none">$500.45</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full min-h-[449px] md:max-2xl:h-[881px] relative overflow-hidden">
+   
+      <div class=" px-[21px] py-[21px] md:max-2xl:px-[100px] md:max-2xl:py-[45px] w-full min-h-[500px] flex flex-col gap-[24px] md:max-2xl:gap-[54px] md:max-2xl:left-0 md:max-2xl:top-[311px] md:max-2xl:absolute bg-slate-50">
+          <div class=" justify-between items-center flex flex-col  gap-[35px] md:max-2xl:flex-row">
+              <h2 class=" w-full md:max-2xl:w-[364px] text-neutral-500 text-center md:max-2xl:text-start text-sm md:max-2xl:text-lg font-normal font-dm-sans">Join our newsletter to keep up to date with our exclusive discounts, newest items and more</h2>
+              <div class="justify-start items-start gap-4 inline-flex">
+                  <div class=" w-[251px] h-11 md:max-2xl:w-[380px] md:max-2xl:h-[58px] px-5 overflow-hidden rounded-[100px] border border-neutral-500 justify-start items-center gap-2 md:max-2xl:gap-6 flex">
+                      <div class="w-6 h-6">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" data-slot="icon" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+                            </svg>                                  
+                      </div>
+                      <input type="text" class="h-full bg-faded flex-grow outline-none border-none placeholder:text-neutral-500 text-sm md:max-2xl:text-base font-normal font-dm-sans leading-none" placeholder="Enter your email address">
+                  </div>
+                  <div class=" w-[109px] md:max-2xl:w-[154px] h-11 md:max-2xl:h-[58px] p-2.5 bg-slate-600 rounded-[100px] justify-center items-center gap-2.5 flex">
+                      <div class="text-white text-[10px] text-base font-normal font-dm-sans leading-none">Subscribe</div>
+                  </div>
+              </div>
+          </div>
+          <div class=" w-full border-b border-solid border-slate-200 block "></div>
+          <div class="w-full justify-between items-start inline-flex">
+              <div class=" hidden flex-col justify-start items-start gap-5 md:max-2xl:inline-flex">
+                  <div class="flex-col justify-start items-start gap-2 flex">
+                      <h2 class="text-zinc-950 text-base font-medium font-space-grotesk">ByTDesigns</h2>
+                  </div>
+                  <h2 class="w-[440px] text-neutral-500 text-sm font-normal font-dm-sans leading-[14px]">Shop with confidence and adorn yourself with the finest treasures, or find the perfect gift for your loved ones.</h2>
+              </div>
+              <div class="justify-start items-start gap-[24px] md:max-2xl:gap-[54px] flex">
+                  <div class="flex-col justify-start items-start gap-2 inline-flex">
+                      <div class="px-0.5 justify-start items-start gap-2.5 inline-flex">
+                          <h2 class="text-black text-base font-medium font-dm-sans leading-none">ByTDesigns</h2>
+                      </div>
+                      <div class="py-2.5 flex-col justify-start items-start gap-2 flex">
+                          <a class="px-0.5 py-1  text-zinc-950 text-sm font-normal font-dm-sans">
+                              Contact us
+                          </a>
+                          <a class="px-0.5 py-1  text-zinc-950 text-sm font-normal font-dm-sans">
+                              Vintage watches
+                          </a>
+                          <a class="px-0.5 py-1  text-zinc-950 text-sm font-normal font-dm-sans">
+                              About
+                          </a>
+                      </div>
+                  </div>
+                  <div class="flex-col justify-start items-start gap-2 inline-flex">
+                      <div class="px-0.5 justify-start items-start gap-2.5 inline-flex">
+                          <h2 class="text-black text-base font-medium font-dm-sans leading-none">Socials</h2>
+                      </div>
+                      <div class="py-2.5 flex-col justify-start items-start gap-2 flex">
+                          <a class="px-0.5 py-1  text-zinc-950 text-sm font-normal font-dm-sans">
+                              Instagram
+                          </a>
+                          <a class="px-0.5 py-1  text-zinc-950 text-sm font-normal font-dm-sans">
+                              Pinterest
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class=" w-full border-b border-solid border-slate-200 block "></div>
+  
+          <div class=" flex-col justify-start items-start gap-6 inline-flex">
+              <div class=" flex items-center gap-2">
+                  <div class="w-3.5 h-3.5 p-3 rounded-[100px] border font-dm-sans text-lg border-neutral-500 flex justify-center items-center gap-2.5 ">C</div>
+                  <h2 class="text-neutral-500 text-lg font-normal font-dm-sans leading-[18px]">2023 ByTDesigns Inc</h2>
+              </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>

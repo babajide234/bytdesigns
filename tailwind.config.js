@@ -13,6 +13,7 @@ module.exports = {
         "section-img": 'url("../img/section-img.png")',
         "footer-img": 'url("../img/footer.png")',
         "shop-img": 'url("../img/pic1.png")',
+        "signup-img": 'url("../img/signup.jpg")',
       },
       fontFamily: {
         "dm-sans": ["DM Sans", "sans-serif"],
@@ -31,6 +32,7 @@ module.exports = {
       },
       animation: {
         borderAnimation: "borderAnimation 0.5s forwards ease-in-out",
+        button:""
       },
     },
   },
